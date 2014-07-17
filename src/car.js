@@ -1,4 +1,5 @@
-require('locus');
+// require('locus');
+
 
 // Object Constructor - Creating 'Car' w/ properties
 // Below notation is same as var Car = function(make...) ...
@@ -121,6 +122,8 @@ var beast = new Car("Nissan", "Altima", 2009, "black");
 // beast.dropOff("Jane");
 // beast.dropOff("Jil");
 
+// ?? ask about why it is not just 'module.exports.Car'
+module.exports = beast;
 
-eval(locus);
+// eval(locus);
 
